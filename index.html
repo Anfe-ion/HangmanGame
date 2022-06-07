@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game!</title>
+    <link rel = "icon" type = "image/x-icon" href = "./img/states/01.png">
+    <link rel = "stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class = "logo">
+            <img src = "./img/logo.png" alt = "Hangman Logo">
+        </div>        
+    </header>
+    <div class = "hombre-ahorcado">
+        <img id = "hombre" alt="hombre-ahorcado">
+    </div>    
+    <div class = "adivinado">
+    </div>
+    <div class = "errado">
+    </div>
+    <div class= "buttons" action = "javascript:void(0)">
+        <input type = button class = "first-button" value = "New Game!" onclick="nuevoJuego()">
+        <input type = button class = "second-button" value = "Surrender :(" onclick="nuevoJuego()">
+    </div>
+   <script src="./logic.js"></script> 
+</body>
+</html>

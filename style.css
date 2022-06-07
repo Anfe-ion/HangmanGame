@@ -1,0 +1,102 @@
+body{
+    background-color: #F3F5FC;
+    font-family: Lato;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    max-height: 6rem;
+}
+
+#hombre{
+    display: inline-block;
+    max-width: 85%;
+    max-height: 85%;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 15px;
+    background-color: #eaedf7;
+}
+
+.hombre-ahorcado{    
+    width: 100vw;
+    max-height: 18rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;    
+}
+
+.adivinado, .errado{
+    text-align: center;    
+}
+
+.letra{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 800;
+}
+
+.adivinada{
+    width: 3rem;
+    height: 2.3rem;    
+    font-size: 1.5rem;
+    color: #48CAC0;
+    border-bottom: solid 4px #48CAC0;
+    margin-left: .4rem;
+}
+
+.errado{
+    text-align: center;
+    font-size: 12px;
+    color: #a1a1a1;
+    margin-top: .8rem;
+    margin-left: 1rem;
+}
+
+[type = button]{
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 0.9rem;    
+    cursor: pointer;
+    background: inherit; /*quita el fondo*/
+    font-weight: 600;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.first-button{
+    background-color: #FED86B;
+    border: solid 2px #48CAC0;
+    color: #48CAC0;
+}
+
+.second-button{
+    background-color: #48CAC0;
+    border: solid 2px #FED86B;
+    color: #FED86B;
+}
+
+.first-button:hover{
+    background-color: #f7cc59;
+    border: solid 2px #48CAC0;
+    color: #48CAC0;
+}
+
+.second-button:hover{
+    background-color: #40bdb2;
+    border: solid 2px #FED86B;
+    color: #FED86B;
+}
+
+.first-button:active, .second-button:active{
+    font-size: 1rem;
+}
